@@ -1,0 +1,176 @@
+@media only screen and ( max-width:600px){
+
+    #seccionServicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1000 px;
+    
+    }
+    #servicioRedes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+    #servicioBranding{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+    #servicioAnimacion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+
+    #servicioRedaccion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+
+    #servicioFoto{
+        text-align: justify;
+        height: 10%;
+        width: 200px;display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+
+    #servicioIlustracion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 300px;
+    }
+
+}
+
+@media only screen and ( min-width: 600px){
+
+
+    #seccionServicio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 1000 px;
+        padding: 30px;
+    }
+    #servicioRedes{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+        
+        
+    }
+    #servicioBranding{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+    }
+    #servicioAnimacion{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+    }
+
+    #servicioRedaccion{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+    }
+
+    #servicioFoto{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+    }
+
+    #servicioIlustracion{
+        text-align: justify;
+        height: 10%;
+        width: 200px;
+        padding-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+
+#seccionServicio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#servicioRedes{
+    height: 10%;
+    width: 30%;
+    
+}
+#servicioBranding{
+    height: 10%;
+    width: 30%;
+}
+#servicioAnimacion{
+    height: 10%;
+    width: 30%;
+}
+
+#servicioRedaccion{
+    height: 10%;
+    width: 30%;
+    padding-top: 30px;
+}
+
+#servicioFoto{
+    height: 10%;
+    width: 30%;
+    padding-top: 30px;
+}
+
+#servicioIlustracion{
+    height: 10%;
+    width: 30%;
+    padding-top: 30px;
+}
+           
+}

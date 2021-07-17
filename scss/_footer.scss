@@ -1,0 +1,31 @@
+.footer{
+    .footer__lista{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        padding-top: 20px;
+        font-weight: bold;
+
+    }
+
+    .footer__item{
+        font-size: large;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 50px;
+        
+        .link{
+        color:yellowgreen;
+        text-decoration: none;
+        
+        &:hover{
+            font-weight: bold;
+            color: rgb(119, 10, 119);
+        }      
+    }
+}
+}

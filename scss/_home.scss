@@ -1,0 +1,153 @@
+
+@media only screen and ( max-width:600px){
+
+    .tituloHome{
+        padding-top: 50px;
+    }
+
+    #homeServicios{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #homeRedes{
+        text-align: center;
+       
+    }
+
+    #homeBranding{
+        text-align: center;
+        
+    }
+
+    #homeAnimacion{
+        text-align: center;
+        padding-bottom: 200px;
+    }   
+
+    #homeRedaccion{
+        text-align: center;
+            
+    }
+
+    #homeFoto{
+        text-align: center;
+       
+    }
+
+    #homeIlustracion{
+        text-align: center;
+      
+    }   
+
+}
+
+@media only screen and ( min-width: 600px){
+    .tituloHome{
+        padding-top: 100px;
+    }
+
+
+    #homeServicios{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        padding: 20px;
+    }
+
+    #homeRedes{
+        text-align: center;
+        height: 10%;
+        
+    }
+
+    #homeBranding{
+        text-align: center;
+        height: 10%;
+
+    }
+
+    #homeAnimacion{
+        text-align: center;
+        height: 10%;
+
+    }   
+
+    #homeRedaccion{
+        text-align: center;
+        height: 10%;
+        
+    }
+
+    #homeFoto{
+        text-align: center;
+        height: 10%;
+
+    }
+
+    #homeIlustracion{
+        text-align: center;
+        height: 10%;
+
+    }   
+
+}
+
+@media only screen and (min-width: 992px){
+
+    .tituloHome{
+        padding-top: 100px;
+    }
+
+#homeServicios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+}
+#homeRedes{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px;
+}
+#homeBranding{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px;
+}
+#homeAnimacion{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+#homeRedaccion{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+}
+#homeFoto{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+}
+#homeIlustracion{
+    text-align: center;
+    height: 10%;
+    width: 30%;
+}
+
+}

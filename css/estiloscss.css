@@ -1,0 +1,418 @@
+.footer .footer__lista {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 20px;
+  font-weight: bold; }
+
+.footer .footer__item {
+  font-size: large;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 50px; }
+  .footer .footer__item .link {
+    color: yellowgreen;
+    text-decoration: none; }
+    .footer .footer__item .link:hover {
+      font-weight: bold;
+      color: #770a77; }
+
+@media only screen and (max-width: 600px) {
+  #seccionServicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1000 px; }
+  #servicioRedes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; }
+  #servicioBranding {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; }
+  #servicioAnimacion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; }
+  #servicioRedaccion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; }
+  #servicioFoto {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; }
+  #servicioIlustracion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 300px; } }
+
+@media only screen and (min-width: 600px) {
+  #seccionServicio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1000 px;
+    padding: 30px; }
+  #servicioRedes {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; }
+  #servicioBranding {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; }
+  #servicioAnimacion {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; }
+  #servicioRedaccion {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; }
+  #servicioFoto {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; }
+  #servicioIlustracion {
+    text-align: justify;
+    height: 10%;
+    width: 200px;
+    padding-top: 40px; } }
+
+@media only screen and (min-width: 992px) {
+  #seccionServicio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 50px;
+    padding-top: 10px; }
+  #servicioRedes {
+    height: 10%;
+    width: 30%; }
+  #servicioBranding {
+    height: 10%;
+    width: 30%; }
+  #servicioAnimacion {
+    height: 10%;
+    width: 30%; }
+  #servicioRedaccion {
+    height: 10%;
+    width: 30%;
+    padding-top: 30px; }
+  #servicioFoto {
+    height: 10%;
+    width: 30%;
+    padding-top: 30px; }
+  #servicioIlustracion {
+    height: 10%;
+    width: 30%;
+    padding-top: 30px; } }
+
+@media only screen and (max-width: 600px) {
+  .tituloHome {
+    padding-top: 50px; }
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; }
+  #homeRedes {
+    text-align: center; }
+  #homeBranding {
+    text-align: center; }
+  #homeAnimacion {
+    text-align: center;
+    padding-bottom: 200px; }
+  #homeRedaccion {
+    text-align: center; }
+  #homeFoto {
+    text-align: center; }
+  #homeIlustracion {
+    text-align: center; } }
+
+@media only screen and (min-width: 600px) {
+  .tituloHome {
+    padding-top: 100px; }
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 20px; }
+  #homeRedes {
+    text-align: center;
+    height: 10%; }
+  #homeBranding {
+    text-align: center;
+    height: 10%; }
+  #homeAnimacion {
+    text-align: center;
+    height: 10%; }
+  #homeRedaccion {
+    text-align: center;
+    height: 10%; }
+  #homeFoto {
+    text-align: center;
+    height: 10%; }
+  #homeIlustracion {
+    text-align: center;
+    height: 10%; } }
+
+@media only screen and (min-width: 992px) {
+  .tituloHome {
+    padding-top: 100px; }
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 50px; }
+  #homeRedes {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeBranding {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeAnimacion {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeRedaccion {
+    text-align: center;
+    height: 10%;
+    width: 30%; }
+  #homeFoto {
+    text-align: center;
+    height: 10%;
+    width: 30%; }
+  #homeIlustracion {
+    text-align: center;
+    height: 10%;
+    width: 30%; } }
+
+h2 {
+  color: #59bbfc;
+  font-size: large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #d2edff;
+  padding: 20px;
+  padding-left: 50px;
+  text-align: center;
+  border-radius: 15px; }
+
+.imgGrilla {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 300px 100px 300px 100px 300px;
+  grid-template-areas: "titulouno titulouno titulouno titulouno" "branding branding branding branding" "titulodos titulodos titulodos titulodos"  "redes redes redes redes" "titulotres titulotres titulotres titulotres" "anuncios anuncios anuncios anuncios";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 100px; }
+
+#branding {
+  grid-area: branding; }
+
+#redes {
+  grid-area: redes; }
+
+#anuncios {
+  grid-area: anuncios; }
+
+@media only screen and (max-width: 600px) {
+  #sectionSobremi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    padding-bottom: 1000 px;
+    padding: 10px; }
+  #fotoSobremi {
+    margin: 25px; }
+  #textoSobremi {
+    font-size: small;
+    text-align: justify;
+    padding: 25px; } }
+
+@media only screen and (min-width: 600px) {
+  #sectionSobremi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; }
+  #textoSobremi {
+    font-size: medium;
+    text-align: justify;
+    padding: 25px; } }
+
+@media only screen and (min-width: 992px) {
+  #sectionSobremi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-top: 80px; }
+  #textoSobremi {
+    text-align: justify;
+    height: 80%;
+    width: 50%;
+    margin-top: 50px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+hr {
+  clear: left;
+  color: #520052; }
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    color: #4dbcd8;
+    font-size: 120px !important;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Sacramento', cursive; }
+  h3 {
+    color: #956cbb;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    color: #4dbcd8;
+    font-size: 80px !important;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Sacramento', cursive; }
+  h3 {
+    color: #956cbb;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    color: #4dbcd8;
+    font-size: 60px !important;
+    text-align: center;
+    font-family: 'Sacramento', cursive; }
+  h3 {
+    color: #956cbb;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+.imgGrilla {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 300px 100px 300px 100px 300px;
+  grid-template-areas: "titulouno titulouno titulouno titulouno" "branding branding branding branding" "titulodos titulodos titulodos titulodos"  "redes redes redes redes" "titulotres titulotres titulotres titulotres" "anuncios anuncios anuncios anuncios";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 100px; }
+
+#branding {
+  grid-area: branding; }
+
+#redes {
+  grid-area: redes; }
+
+#anuncios {
+  grid-area: anuncios; }
+
+h2 {
+  color: #59bbfc;
+  font-size: large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #d2edff;
+  padding: 20px;
+  padding-left: 50px;
+  text-align: center;
+  border-radius: 15px; }
+
+form {
+  margin: 70px;
+  padding: 30px;
+  padding-bottom: 50px; }

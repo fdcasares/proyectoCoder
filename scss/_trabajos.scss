@@ -1,0 +1,14 @@
+img:hover{
+    --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}      
+
+
+@media only screen and ( max-width:600px){
+
+    section{
+        display: flex;
+        align-items: center;    
+    }
+
+}
