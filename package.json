@@ -11,8 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.10"
+    "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdcasares/proyectoCoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fdcasares/proyectoCoder/issues"
+  },
+  "homepage": "https://github.com/fdcasares/proyectoCoder#readme",
   "description": ""
 }

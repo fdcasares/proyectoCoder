@@ -246,36 +246,11 @@
     height: 10%;
     width: 30%; } }
 
-h2 {
-  color: #59bbfc;
-  font-size: large;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: #d2edff;
-  padding: 20px;
-  padding-left: 50px;
-  text-align: center;
-  border-radius: 15px; }
+.item {
+  transition: .5s ease-in-out; }
 
-.imgGrilla {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 100px 300px 100px 300px 100px 300px;
-  grid-template-areas: "titulouno titulouno titulouno titulouno" "branding branding branding branding" "titulodos titulodos titulodos titulodos"  "redes redes redes redes" "titulotres titulotres titulotres titulotres" "anuncios anuncios anuncios anuncios";
-  column-gap: 10px;
-  row-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  padding-bottom: 100px; }
-
-#branding {
-  grid-area: branding; }
-
-#redes {
-  grid-area: redes; }
-
-#anuncios {
-  grid-area: anuncios; }
+.item:hover {
+  filter: brightness(80%); }
 
 @media only screen and (max-width: 600px) {
   #sectionSobremi {
@@ -380,37 +355,6 @@ hr {
     border-bottom: 30px;
     text-align: center;
     font-weight: bold; } }
-
-.imgGrilla {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 100px 300px 100px 300px 100px 300px;
-  grid-template-areas: "titulouno titulouno titulouno titulouno" "branding branding branding branding" "titulodos titulodos titulodos titulodos"  "redes redes redes redes" "titulotres titulotres titulotres titulotres" "anuncios anuncios anuncios anuncios";
-  column-gap: 10px;
-  row-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  padding-bottom: 100px; }
-
-#branding {
-  grid-area: branding; }
-
-#redes {
-  grid-area: redes; }
-
-#anuncios {
-  grid-area: anuncios; }
-
-h2 {
-  color: #59bbfc;
-  font-size: large;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: #d2edff;
-  padding: 20px;
-  padding-left: 50px;
-  text-align: center;
-  border-radius: 15px; }
 
 form {
   margin: 70px;
