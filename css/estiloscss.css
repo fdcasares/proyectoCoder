@@ -165,17 +165,34 @@
     padding: 15px; }
   #homeRedes {
     text-align: center; }
+  #homeRedes:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeBranding {
     text-align: center; }
+  #homeBranding:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeAnimacion {
-    text-align: center;
-    padding-bottom: 200px; }
+    text-align: center; }
+  #homeAnimacion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeRedaccion {
     text-align: center; }
+  #homeRedaccion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeFoto {
     text-align: center; }
+  #homeFoto:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeIlustracion {
-    text-align: center; } }
+    text-align: center; }
+  #homeIlustracion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; } }
 
 @media only screen and (min-width: 600px) {
   .tituloHome {
@@ -191,21 +208,39 @@
   #homeRedes {
     text-align: center;
     height: 10%; }
+  #homeRedes:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeBranding {
     text-align: center;
     height: 10%; }
+  #homeBranding:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeAnimacion {
     text-align: center;
     height: 10%; }
+  #homeAnimacion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeRedaccion {
     text-align: center;
     height: 10%; }
+  #homeRedaccion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeFoto {
     text-align: center;
     height: 10%; }
+  #homeFoto:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeIlustracion {
     text-align: center;
-    height: 10%; } }
+    height: 10%; }
+  #homeIlustracion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; } }
 
 @media only screen and (min-width: 992px) {
   .tituloHome {
@@ -223,28 +258,46 @@
     height: 10%;
     width: 30%;
     padding-bottom: 50px; }
+  #homeRedes:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeBranding {
     text-align: center;
     height: 10%;
     width: 30%;
     padding-bottom: 50px; }
+  #homeBranding:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeAnimacion {
     text-align: center;
     height: 10%;
     width: 30%;
     padding-bottom: 50px; }
+  #homeAnimacion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeRedaccion {
     text-align: center;
     height: 10%;
     width: 30%; }
+  #homeRedaccion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeFoto {
     text-align: center;
     height: 10%;
     width: 30%; }
+  #homeFoto:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; }
   #homeIlustracion {
     text-align: center;
     height: 10%;
-    width: 30%; } }
+    width: 30%; }
+  #homeIlustracion:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; } }
 
 .item {
   transition: .5s ease-in-out; }

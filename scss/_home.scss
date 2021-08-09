@@ -1,10 +1,7 @@
-
 @media only screen and ( max-width:600px){
-
     .tituloHome{
         padding-top: 50px;
     }
-
     #homeServicios{
         display: flex;
         flex-wrap: wrap;
@@ -13,45 +10,54 @@
         align-items: center;
         padding: 15px;
     }
-
     #homeRedes{
         text-align: center;
-       
     }
-
+    #homeRedes:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeBranding{
-        text-align: center;
-        
+        text-align: center;       
     }
-
+    #homeBranding:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeAnimacion{
         text-align: center;
-        padding-bottom: 200px;
-    }   
-
-    #homeRedaccion{
-        text-align: center;
-            
     }
-
+    #homeAnimacion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeRedaccion{
+        text-align: center;  
+    }
+    #homeRedaccion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeFoto{
         text-align: center;
-       
     }
-
+    #homeFoto:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeIlustracion{
         text-align: center;
-      
-    }   
-
+    }
+    #homeIlustracion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
 }
 
 @media only screen and ( min-width: 600px){
     .tituloHome{
         padding-top: 100px;
     }
-
-
     #homeServicios{
         display: flex;
         flex-wrap: wrap;
@@ -61,93 +67,124 @@
         height: 50%;
         padding: 20px;
     }
-
     #homeRedes{
         text-align: center;
         height: 10%;
-        
     }
-
+    #homeRedes:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeBranding{
         text-align: center;
         height: 10%;
-
     }
-
+    #homeBranding:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeAnimacion{
         text-align: center;
         height: 10%;
-
-    }   
-
+    }
+    #homeAnimacion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeRedaccion{
         text-align: center;
-        height: 10%;
-        
+        height: 10%;   
     }
-
+    #homeRedaccion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeFoto{
         text-align: center;
         height: 10%;
-
     }
-
+    #homeFoto:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
     #homeIlustracion{
         text-align: center;
         height: 10%;
-
-    }   
-
+    }
+    #homeIlustracion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
 }
 
 @media only screen and (min-width: 992px){
-
     .tituloHome{
         padding-top: 100px;
     }
-
-#homeServicios{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    padding: 50px;
-}
-#homeRedes{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-    padding-bottom: 50px;
-}
-#homeBranding{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-    padding-bottom: 50px;
-}
-#homeAnimacion{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-    padding-bottom: 50px;
-}
-
-#homeRedaccion{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-}
-#homeFoto{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-}
-#homeIlustracion{
-    text-align: center;
-    height: 10%;
-    width: 30%;
-}
-
+    #homeServicios{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        padding: 50px;
+    }
+    #homeRedes{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+        padding-bottom: 50px;
+    }
+    #homeRedes:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeBranding{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+        padding-bottom: 50px;
+    }
+    #homeBranding:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeAnimacion{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+        padding-bottom: 50px;
+    }
+    #homeAnimacion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeRedaccion{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+    }
+    #homeRedaccion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeFoto{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+    }
+    #homeFoto:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
+    #homeIlustracion{
+        text-align: center;
+        height: 10%;
+        width: 30%;
+    }
+    #homeIlustracion:hover{
+        transform: scale(1.1,1.1);
+        transition: transform 2s;
+    }
 }
